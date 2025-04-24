@@ -1,15 +1,16 @@
-const db = require("../db");
+const db = require("../db")
+const asyncHandler = require("express-async-handler")
+const CustomNotFoundError = require("../errors/CustomNotFoundError")
 
-async function getMessages(req, res) {
+const getMessages = (async(req, res) => {
 
   const messages = await db.getMessages()
 
   if (!messages) {
-    res.status(404).send("Messages not found")
-    return
+    throw new CustomNotFoundError("Messages not found")
   }
 
-  res.send(`Messages: ${messages}`);
-};
+  res.send(`Messages: ${messages}`)
+})
 
-module.exports = { getMessages };
+module.exports = { getMessages }

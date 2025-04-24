@@ -1,2 +1,14 @@
-# express-mini-message-board
-The Odin Project - Mini Message Board
+```
+  __  __ _       _   __  __                                  ____                      _ 
+ |  \/  (_)_ __ (_) |  \/  | ___  ___ ___  __ _  __ _  ___  | __ )  ___   __ _ _ __ __| |
+ | |\/| | | '_ \| | | |\/| |/ _ \/ __/ __|/ _` |/ _` |/ _ \ |  _ \ / _ \ / _` | '__/ _` |
+ | |  | | | | | | | | |  | |  __/\__ \__ \ (_| | (_| |  __/ | |_) | (_) | (_| | | | (_| |
+ |_|  |_|_|_| |_|_| |_|  |_|\___||___/___/\__,_|\__, |\___| |____/ \___/ \__,_|_|  \__,_|
+                                                |___/                                    
+
+```
+
+🎯[Assignment](https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board)
+
+💬[Solution]() In Progres...
+

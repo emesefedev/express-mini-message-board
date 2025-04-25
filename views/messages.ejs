@@ -1,8 +1,10 @@
 <html>
   <head>
+    <title> <%= title %> </title>
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
+    <h1 class="title"> <%= title %> </h1>
     <div class="messages-container">
         <% for (let i = 0; i < messages.length; i++) { %>
           <div class="message-container">

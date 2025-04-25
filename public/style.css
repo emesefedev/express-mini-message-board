@@ -1,9 +1,14 @@
+.title {
+  padding-left: 8px;
+  padding-top: 8px;
+}
+
 .messages-container {
   display: flex;
   flex-direction: column;
   gap: 2em;
 
-  padding: 2em;
+  padding: 8px;
 }
 
 .message-container {

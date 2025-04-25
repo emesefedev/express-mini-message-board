@@ -5,12 +5,16 @@ const app = express()
 
 const path = require("node:path")
 
+app.use(express.urlencoded({ extended: true }))
+
+// views
 app.set("views", path.join(__dirname, "views"))
 app.set("view engine", "ejs")
 
-const assetsPath = path.join(__dirname, "public");
-app.use(express.static(assetsPath));
+const assetsPath = path.join(__dirname, "public")
+app.use(express.static(assetsPath))
 
+// routes
 const newRouter = require("./routes/newRouter")
 const indexRouter = require("./routes/indexRouter") 
 

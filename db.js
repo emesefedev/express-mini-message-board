@@ -2,7 +2,7 @@ const messages = [
   {
     text: "Hi there!!!",
     user: "Miquel",
-    added: new Date()
+    added: new Date() 
   },
   {
     text: "Hello Miquel :)",
@@ -12,7 +12,7 @@ const messages = [
 ]
 
 async function getMessages() {
-    return messages
-  }
+  return messages
+}
   
 module.exports = { getMessages }
